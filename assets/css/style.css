@@ -56,6 +56,25 @@ a{
     padding-bottom: 100px;
 }
 
+/* Preloader Css */
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height:  100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+  }
+  .preloader img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+
 /* Section Title Css*/
 
 .section-title {
@@ -1046,4 +1065,24 @@ a{
     height: 297px;
     border: 1px solid #ddd;
     padding: 3px;
+  }
+
+  /* Scroll to top Css */
+
+  .scroll-show {
+    position: fixed;
+    /*background-color: crimson;*/
+    z-index: 2;
+    right: 50px;
+    bottom: 50px;
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  .scroll-show:hover {
+    color: darkred;
   }
